@@ -1,0 +1,21 @@
+# Stable Release Acceptance Checklist
+
+- [ ] Artefacto Golden v0.6.6 disponible para rollback.
+- [ ] Backup del sitio/base antes de prueba de upgrade.
+- [ ] Sintaxis PHP válida en todos los PHP.
+- [ ] Sintaxis JavaScript válida.
+- [ ] Plugin activa correctamente en WordPress.
+- [ ] Compatibilidad/dependencia WooCommerce correcta.
+- [ ] Clean install aprobado.
+- [ ] Upgrade desde Golden aprobado.
+- [ ] Matriz REGRESSION-MATRIX 100% PASS o N/A justificado.
+- [ ] Sin nuevos fatal/notices del plugin en flujos centrales.
+- [ ] Sin errores JS no capturados originados por el plugin.
+- [ ] Persistencia entre solapas verificada.
+- [ ] Paridad PDF/Imprimir verificada.
+- [ ] Aislamiento de dos sesiones anónimas verificado.
+- [ ] Recuperación desde navegador sin cookies originales verificada.
+- [ ] Timezone comparado con Ajustes > Generales.
+- [ ] Responsive desktop/notebook/tablet/mobile revisado.
+- [ ] Estructura final del ZIP verificada.
+- [ ] SHA-256 final registrado.
